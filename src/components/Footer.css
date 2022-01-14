@@ -1,0 +1,79 @@
+.footer-container{
+    display: flex;
+    background: #e4f5ff;
+}
+
+.footer-left{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.footer-desc{
+    padding: 20px 0px;
+}
+
+.footer-social{
+    display: flex;
+}
+
+.footer-social-fb, .footer-social-git, .footer-social-ins, .footer-social-yt{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: white;
+    margin-right: 20px;
+}
+
+.footer-social-fb{
+    background-color: #3b5999;
+    cursor: pointer;
+}
+.footer-social-git{
+    background-color: #08090a;
+    cursor: pointer;
+}
+.footer-social-ins{
+    background-color: #e4405f;
+}
+.footer-social-yt{
+    background-color: #f90302;
+}
+
+.footer-center{
+    flex: 1;
+    padding: 20px;
+}
+
+.footer-center-title{
+    margin-bottom: 30px;
+}
+
+.footer-center-list{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-center-listItem{
+    width: 50%;
+    margin-bottom: 10px;
+}
+
+.footer-right{
+    flex: 1;
+    padding: 20px;
+}
+
+.footer-right-title{
+    margin-bottom: 30px;
+}
+
+.footer-right-location,.footer-right-phone,.footer-right-mail{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,27 @@
+.proli-title{
+    margin: 20px;
+}
+
+.proli-filter-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.proli-filter{
+    margin: 20px;
+}
+
+.proli-filter-text{
+    font-size: 20px;
+    font-weight: 600;
+    margin-right: 20px;
+}
+
+.proli-filter-select{
+    padding: 10px;
+    margin-right: 20px;
+}
+
+.proli-filter-option{
+    width: 10px;
+}

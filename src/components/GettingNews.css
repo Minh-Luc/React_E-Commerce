@@ -1,0 +1,47 @@
+.getNew-container{
+    height: 60vh;
+    background-color: #fcf5f5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.getNew-title{
+    font-size: 70px;
+    margin-bottom: 20px;
+}
+
+.getNew-desc{
+    margin-bottom: 20px;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.getNew-input-container{
+    width: 50%;
+    height: 40px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid lightslategray;
+}
+
+.getNew-input{
+    flex: 8;
+    border: none;
+    padding-left: 20px;
+}
+
+.getNew-button{
+    flex: 1;
+    border: none;
+    cursor: pointer;
+    background-color: aquamarine;
+}
+
+.getNew-button:hover{
+    color: white;
+    background: teal;
+}
